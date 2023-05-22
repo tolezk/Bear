@@ -82,8 +82,8 @@ target_link_libraries(wrapper_a PUBLIC
         result_a
         sys_a
         rpc_a
-        spdlog::spdlog)
-
+        spdlog::spdlog
+        stdc++fs)
 
 # Intercept report sender executable.
 add_executable(wrapper
