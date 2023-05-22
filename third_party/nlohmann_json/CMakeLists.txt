@@ -9,9 +9,9 @@ else ()
     include(ExternalProject)
     ExternalProject_Add(nlohmann_json_dependency
             URL
-                https://github.com/nlohmann/json/archive/v3.11.2.tar.gz
+                https://github.com/nlohmann/json/archive/v3.10.4.tar.gz
             URL_HASH
-                MD5=e8d56bc54621037842ee9f0aeae27746
+                MD5=d1de947a7fe0030ce3f5f36304945563
             DOWNLOAD_NO_PROGRESS
                 1
             UPDATE_COMMAND
